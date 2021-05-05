@@ -1,0 +1,96 @@
+body{
+    font-size: 16px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+
+#container-0 {
+    width: 20em;
+    height: 20em;
+    background-color: rgb(247, 204, 204);
+    color: black;
+    border: 1em solid rgb(247, 204, 204);
+    border-radius: 0.8em;
+    position: relative;
+    text-align: center;
+    margin-top: 5em;
+   
+    
+   
+
+}
+
+#selectedChar {
+    border:0;
+    border-bottom: 0.2em solid black;
+    outline: none;
+    background-color: rgb(153, 24, 24);
+    resize: none;
+    text-align: center;
+    font-size: 1em;
+
+    
+}
+
+#load:hover{
+    
+    color: black;
+    width: 1em;
+    margin-left: 2.5em;
+    cursor: pointer;
+}
+
+#load{
+    width: 6em;
+    font-size: 30px;
+    
+  
+}
+
+#copy:hover{
+    color: black;
+    width: 6.5em;
+    margin-right:-10em ;
+    cursor: pointer;
+}
+#copy{
+    width: 6.5em;
+    font-size: 30px;
+    margin-top: -2.2em;
+    margin-left: 3.6em;
+}
+
+h6{
+    font-size: 11px;
+    position: relative;
+    border-top-width: 5em;
+}
+
+
+#container-1{
+    width: 18em;
+    height: 14em;
+    background-color: rgb(153, 24, 24);
+    color: white;
+    border: 0.8em solid rgb(153, 24, 24);
+    border-radius: 0.8em;
+}
+h4{
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+#sizeChar{
+    position: relative;
+    width: 1.5em;
+    align-items: center;
+}
